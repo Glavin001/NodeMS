@@ -1,6 +1,6 @@
-# JSMS
+# NodeMS
 
-> JavaScript (Node.js) Media Server
+> Node.js Media Server
 
 ## About
 
