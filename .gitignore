@@ -1,3 +1,7 @@
+dist
+
+### https://raw.github.com/github/gitignore/77e29837cf03b59fc4d885ea011bbd683caaaf85/node.gitignore
+
 # Logs
 logs
 *.log
@@ -25,3 +29,5 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+

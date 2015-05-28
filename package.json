@@ -1,0 +1,34 @@
+{
+  "name": "NodeMS",
+  "version": "0.1.0",
+  "description": "Node.js Media Server",
+  "main": "dist/lib",
+  "bin": "dist/bin/index.js",
+  "preferGlobal": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+      "babel": "^5.4.7"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/babel src --out-dir dist --source-maps inline",
+    "postinstall": "npm run build",
+    "prestart": "npm run build",
+    "start": "node dist/bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glavin001/NodeMS.git"
+  },
+  "keywords": [
+    "media",
+    "server"
+  ],
+  "author": "Glavin Wiechert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Glavin001/NodeMS/issues"
+  },
+  "homepage": "https://github.com/Glavin001/NodeMS"
+}
